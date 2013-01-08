@@ -20,12 +20,6 @@
     <?php print $print['css']; ?>
   </head>
   <body>
-    <?php if ($islandora_content) {
-      print "DERP";
-    } 
-    else {
-      print "HERP";
-    } ?>
     <?php if (!empty($print['message'])) {
       print '<div class="print-message">'. $print['message'] .'</div><p />';
     } ?>
