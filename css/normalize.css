@@ -221,9 +221,11 @@ body {
  */
 
 a:link {
+  color: #3E727A;
 }
 
 a:visited {
+  color: #3E727A;
 }
 
 a:hover,
@@ -483,7 +485,8 @@ menu,
 ol,
 ul,
 .item-list ul /* Drupal override */ {
-  padding: 0 0 0 30px; /* LTR */
+  padding: 0 0 0 15px; /* LTR */
+  color: #555;
 }
 
 /*

@@ -15,9 +15,15 @@
 body {
   margin: 0;
   padding: 0;
+  background: #F4F4F3;
+
+  font-family: 'News Cycle'; font-size: 110%;
+  font-style: normal; font-weight: 100;
+  letter-spacing: 0.5pt;
 }
 
 #page {
+  padding-top: 15px;
 }
 
 /*
@@ -45,6 +51,9 @@ body {
 #header {
   height: 90px;
   background: url('../images/top_banner.jpg') no-repeat;
+  box-shadow: 0px 2px 4px #777;
+  -moz-box-shadow: 0px 2px 4px #777;
+  -webkit-box-shadow: 0px 2px 4px #777;
 }
 
 #logo { /* Wrapping link for logo */
@@ -57,27 +66,34 @@ body {
 }
 
 #name-and-slogan { /* Wrapper for website name and slogan */
+  border-left: 1px dotted #442404;
+  color: #442404;
   float: left;
+  font-family: serif;
+  margin: 13px 0 0 10px;
+  padding-left: 15px;
+  font-weight: normal;
 }
 
 #site-name { /* The name of the website */
   margin: 0;
-  font-size: 2em;
+  font-size: 1.8em;
   line-height: 1.5em;
+  font-weight: normal;
 }
 #site-name a:link,
 #site-name a:visited {
-  color: #000;
+  color: #442404;
   text-decoration: none;
 }
 #site-name a:hover,
 #site-name a:focus {
-  text-decoration: underline;
 }
 
 #site-slogan { /* The slogan (or tagline) of a website */
   margin: 0;
-  font-size: 1em;
+  font-size: 0.8em;
+  font-weight: normal;
 }
 
 .region-header { /* Wrapper for any blocks placed in the header region */
@@ -96,6 +112,7 @@ body {
  */
 
 #content {
+  float: left;
 }
 
 .region-highlighted {
@@ -206,6 +223,7 @@ span.field-label { /* The inline field label used by the Fences module */
  */
 
 .region-sidebar-first {
+  margin-top: 1em;
 }
 
 /*

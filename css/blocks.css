@@ -8,6 +8,10 @@
   margin-bottom: 1.5em;
 }
 
+.sidebars .block {
+	background: #fff;
+}
+
 .block.first { /* The first block in the region */
 }
 
@@ -20,7 +24,19 @@
 .block.even { /* Zebra striping for each block in the region */
 }
 
-h2.block-title { /* Block title */
+.sidebar h2.block-title { /* Block title */
+}
+.sidebar h2.block-title {
+	background-color: #633706;
+	border-bottom-right-radius: 10px;
+	color: #FFFFFF;
+	font-size: 11px; letter-spacing: 1pt; text-transform: uppercase;
+	height: 22px;
+	line-height: 22px;
+	margin: 0 10px 5px 0;
+	overflow: hidden;
+	padding: 0 0 0 5px;
+	width: 95%;
 }
 
 #block-aggregator-category-1 { /* Block for the latest news items in the first category */
@@ -102,4 +118,72 @@ h2.block-title { /* Block title */
 }
 
 #block-user-online { /* "Who's online" block for a list of the online users */
+}
+
+/***************/
+/******************************/
+/***************/
+
+.facet-list .plusminus {
+	display: none;
+}
+
+.facet-list .count {
+	color: #555;
+}
+
+.sidebars li {
+	margin-bottom: 3px !important;
+}
+
+.islandora-solr-facet-wrap, .islandora-solr-content {
+	background: #fff;
+	padding: 2px 25px;
+}
+
+#slogan-floater {
+	position: relative;
+	top: -94px;
+	float: right;
+	right: -10px;
+}
+
+#googleButton {
+	max-height: 32px;
+	float: left;
+	margin: -1px 0 0 3px;
+}
+
+#googleSearch {
+	float: left;
+}
+
+#search_parameters {
+	float: left;
+	clear: left;
+}
+
+span.radio1, span.radio2, span.radio3 {
+	display: inline;
+}
+
+#utilityLinks a {
+  color: #4D2700;
+  font-family: "Helvetica";
+  font-size: 11px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+#slogan-floater #search {
+  color: #4D2700;
+  font-family: "Helvetica";
+  font-size: 11px;
+  font-weight: 700;
+  margin-top: 7px;
+}
+
+#search_parameters p {
+	display: inline;	
+	margin: 0 5px;
 }
