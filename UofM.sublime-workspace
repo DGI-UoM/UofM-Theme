@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"max",
+				"max-height"
+			],
+			[
 				"block-",
 				"block-user-1"
 			],
@@ -16,10 +20,10 @@
 	"buffers":
 	[
 		{
-			"file": "css/normalize.css",
+			"file": "css/pages.css",
 			"settings":
 			{
-				"buffer_size": 16459,
+				"buffer_size": 4897,
 				"line_ending": "Unix"
 			}
 		},
@@ -27,15 +31,39 @@
 			"file": "css/navigation.css",
 			"settings":
 			{
-				"buffer_size": 2271,
+				"buffer_size": 5843,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "css/pages.css",
+			"file": "css/normalize.css",
 			"settings":
 			{
-				"buffer_size": 4357,
+				"buffer_size": 16510,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/layouts/responsive-sidebars.css",
+			"settings":
+			{
+				"buffer_size": 6282,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/blocks.css",
+			"settings":
+			{
+				"buffer_size": 3469,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/page.tpl.php",
+			"settings":
+			{
+				"buffer_size": 6881,
 				"line_ending": "Unix"
 			}
 		}
@@ -72,6 +100,7 @@
 	},
 	"file_history":
 	[
+		"/Volumes/UofM/UofM/template.php",
 		"/Users/morganhi/Projects/Berkeley Labs/dgiIR/css/forms.css",
 		"/Volumes/DGI IR Demo/dgiIR/templates/page.tpl.php",
 		"/Volumes/DGI IR Demo/dgiIR/templates/page.tpl.orig.bak",
@@ -153,23 +182,23 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "css/normalize.css",
+					"file": "css/pages.css",
 					"settings":
 					{
-						"buffer_size": 16459,
+						"buffer_size": 4897,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								328,
+								328
 							]
 						],
 						"settings":
@@ -189,15 +218,43 @@
 					"file": "css/navigation.css",
 					"settings":
 					{
-						"buffer_size": 2271,
+						"buffer_size": 5843,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								2810,
+								2810
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1385.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/normalize.css",
+					"settings":
+					{
+						"buffer_size": 16510,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6586,
+								6586
 							]
 						],
 						"settings":
@@ -213,19 +270,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "css/pages.css",
+					"buffer": 3,
+					"file": "css/layouts/responsive-sidebars.css",
 					"settings":
 					{
-						"buffer_size": 4357,
+						"buffer_size": 6282,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								5269,
+								5269
 							]
 						],
 						"settings":
@@ -235,7 +292,61 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
+						"translation.y": 3588.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "css/blocks.css",
+					"settings":
+					{
+						"buffer_size": 3469,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								589,
+								589
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 32.5,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "templates/page.tpl.php",
+					"settings":
+					{
+						"buffer_size": 6881,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3698,
+								3698
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 732.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -300,5 +411,5 @@
 	"show_tabs": true,
 	"side_bar_visible": false,
 	"side_bar_width": 263.0,
-	"status_bar_visible": true
+	"status_bar_visible": false
 }

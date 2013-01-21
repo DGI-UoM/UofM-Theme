@@ -101,6 +101,12 @@
  *   http://drupal.org/node/223440 and http://drupal.org/node/1089656
  */
 
+/* -- Custom Fonts -- */
+function UofM_preprocess_html(&$variables) {
+  drupal_add_css('http://openfontlibrary.org/face/linear-regular', array('type' => 'external'));
+  drupal_add_css('http://openfontlibrary.org/face/open-baskerville', array('type' => 'external'));
+  drupal_add_css('http://openfontlibrary.org/face/news-cycle', array('type' => 'external'));
+}
 
 /**
  * Override or insert variables into the maintenance page template.
