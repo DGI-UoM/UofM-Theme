@@ -688,6 +688,27 @@ textarea {
   vertical-align: top; /* 2 */
 }
 
+/**//**/
+
+#edit-terms-0-search {
+  width: 150%;
+  position: relative;
+}
+
+#edit-terms-0-add {
+  position: relative;
+  left: 100px;
+}
+
+.islandora-solr-advanced-controls {
+  position: relative;
+  right: 5px; top: 5px;
+}
+
+
+/**
+
+
 
 /* =============================================================================
    Tables

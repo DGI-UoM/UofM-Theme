@@ -70,15 +70,15 @@ body {
   color: #442404;
   float: left;
   font-family: serif;
-  margin: 13px 0 0 10px;
+  margin: 24px 0 0 7px;
   padding-left: 15px;
   font-weight: normal;
 }
 
 #site-name { /* The name of the website */
   margin: 0;
-  font-size: 1.8em;
-  line-height: 1.5em;
+  font-size: 1.2em;
+  line-height: 1.3em;
   font-weight: normal;
 }
 #site-name a:link,
@@ -92,7 +92,7 @@ body {
 
 #site-slogan { /* The slogan (or tagline) of a website */
   margin: 0;
-  font-size: 0.8em;
+  font-size: 0.6em;
   font-weight: normal;
 }
 
@@ -210,6 +210,7 @@ span.field-label { /* The inline field label used by the Fences module */
 }
 
 .feed-icon { /* The link to the RSS or Atom feed for the current list of content */
+  position: absolute; right: 8px;  top: 8px;
 }
 
 .more-link { /* Aggregator, blog, and forum more link */

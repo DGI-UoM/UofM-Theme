@@ -23,7 +23,7 @@
 			"file": "css/pages.css",
 			"settings":
 			{
-				"buffer_size": 4897,
+				"buffer_size": 4896,
 				"line_ending": "Unix"
 			}
 		},
@@ -31,7 +31,7 @@
 			"file": "css/navigation.css",
 			"settings":
 			{
-				"buffer_size": 5843,
+				"buffer_size": 5854,
 				"line_ending": "Unix"
 			}
 		},
@@ -47,7 +47,7 @@
 			"file": "css/layouts/responsive-sidebars.css",
 			"settings":
 			{
-				"buffer_size": 6282,
+				"buffer_size": 6286,
 				"line_ending": "Unix"
 			}
 		},
@@ -60,10 +60,18 @@
 			}
 		},
 		{
+			"file": "css/views-styles.css",
+			"settings":
+			{
+				"buffer_size": 2351,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "templates/page.tpl.php",
 			"settings":
 			{
-				"buffer_size": 6881,
+				"buffer_size": 6973,
 				"line_ending": "Unix"
 			}
 		}
@@ -100,6 +108,7 @@
 	},
 	"file_history":
 	[
+		"/Volumes/UofM/UofM/UofM.info",
 		"/Volumes/UofM/UofM/template.php",
 		"/Users/morganhi/Projects/Berkeley Labs/dgiIR/css/forms.css",
 		"/Volumes/DGI IR Demo/dgiIR/templates/page.tpl.php",
@@ -182,7 +191,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -190,15 +199,15 @@
 					"file": "css/pages.css",
 					"settings":
 					{
-						"buffer_size": 4897,
+						"buffer_size": 4896,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								328,
-								328
+								1883,
+								1883
 							]
 						],
 						"settings":
@@ -208,7 +217,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 901.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -218,15 +227,15 @@
 					"file": "css/navigation.css",
 					"settings":
 					{
-						"buffer_size": 5843,
+						"buffer_size": 5854,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2810,
-								2810
+								4423,
+								4423
 							]
 						],
 						"settings":
@@ -236,7 +245,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1385.0,
+						"translation.y": 2171.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -274,15 +283,15 @@
 					"file": "css/layouts/responsive-sidebars.css",
 					"settings":
 					{
-						"buffer_size": 6282,
+						"buffer_size": 6286,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5269,
-								5269
+								1844,
+								1844
 							]
 						],
 						"settings":
@@ -292,7 +301,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3588.0,
+						"translation.y": 1019.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -317,7 +326,7 @@
 						{
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
-						"translation.x": 32.5,
+						"translation.x": 32.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -325,18 +334,46 @@
 				},
 				{
 					"buffer": 5,
-					"file": "templates/page.tpl.php",
+					"file": "css/views-styles.css",
 					"settings":
 					{
-						"buffer_size": 6881,
+						"buffer_size": 2351,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3698,
-								3698
+								1092,
+								1092
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "templates/page.tpl.php",
+					"settings":
+					{
+						"buffer_size": 6973,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4691,
+								4691
 							]
 						],
 						"settings":
@@ -346,7 +383,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 732.0,
+						"translation.y": 1844.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

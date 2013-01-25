@@ -113,7 +113,11 @@
   </header>
 
   <div id="main">
-
+    
+    <div id="featured">
+      <?php print render($page['featured']); ?>
+    </div>
+    
     <div id="content" class="column" role="main">
       <?php print render($page['highlighted']); ?>
       <?php print $breadcrumb; ?>
