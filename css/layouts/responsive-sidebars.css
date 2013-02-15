@@ -117,6 +117,7 @@
   #featured {
     height: 230px !important;
   }
+
 }
 
 @media all and (max-width: 830px) {
@@ -195,6 +196,7 @@
     width: 66.667%;
     margin-left: 33.333%;
     margin-right: -100%;
+    margin-top: 16px;
   }
   .sidebar-first .region-sidebar-first { /* Span 1 column, starting in 1st column from left. */
     float: left;
@@ -202,6 +204,10 @@
     margin-left: 0%;
     margin-right: -33.333%;
   }
+
+  .front #content .block-views {
+    width: 45%;
+}
 
   /*
    * The layout when there is only one sidebar, the right one.
@@ -301,15 +307,20 @@
   .sidebar-first #content { /* Span 4 columns, starting in 2nd column from left. */
     float: left;
     width: 76%;
-    margin-left: 24%;
-    margin-right: -100%;
     clear: left;
+    margin: 35px -100% 0 24%;
   }
   .sidebar-first .region-sidebar-first { /* Span 1 column, starting in 1st column from left. */
     float: left;
     width: 23%;
-    margin-left: 0%;
-    margin-right: -20%;
+    margin: 3.5em -20% 0 0%;
+  }
+  .front.sidebar-first .region-sidebar-first {
+    margin-top: 2.2em;
+  }
+
+  .front #content .block-views {
+    width: 31%;  
   }
 
   /*

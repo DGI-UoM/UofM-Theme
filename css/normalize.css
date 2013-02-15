@@ -222,6 +222,7 @@ body {
 
 a:link {
   color: #3E727A;
+  text-decoration: none;
 }
 
 a:visited {
@@ -230,6 +231,8 @@ a:visited {
 
 a:hover,
 a:focus {
+  color: #633706;
+  outline: none;
 }
 
 a:active {

@@ -17,7 +17,7 @@ body {
   padding: 0;
   background: #F4F4F3;
 
-  font-family: 'News Cycle'; font-size: 110%;
+  font-family: 'News Cycle'; font-size: 90%;
   font-style: normal; font-weight: 100;
   letter-spacing: 0.5pt;
 }
@@ -137,7 +137,7 @@ h2.block-title, /* Block title */
 h2.title, /* Comment section heading */
 h2.comment-form, /* Comment form heading */
 h3.title { /* Comment title */
-  margin: 0;
+  margin: 0.2em 0;
 }
 
 tr.even { /* Some tables have rows marked even or odd. */
@@ -206,11 +206,16 @@ span.field-label { /* The inline field label used by the Fences module */
   padding: 0;
 }
 .item-list .pager li { /* Each page number in the pager list */
-  padding: 0 0.5em;
+  padding: 0px 0.5em 3px;
+  border: 1px solid #ececec;
+}
+
+.item-list .pager li:hover { 
+  background: #ececec;
 }
 
 .feed-icon { /* The link to the RSS or Atom feed for the current list of content */
-  position: absolute; right: 8px;  top: 8px;
+  display: none;
 }
 
 .more-link { /* Aggregator, blog, and forum more link */
@@ -249,4 +254,13 @@ span.field-label { /* The inline field label used by the Fences module */
  */
 
 .region-bottom { /* Wrapper for any blocks placed in the page bottom region */
+}
+
+/*
+ * Search Results
+*/
+
+#islandora-solr-top {
+  float: left;
+  position: relative; left: 30px; top: 25px;
 }

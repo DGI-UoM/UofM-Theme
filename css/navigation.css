@@ -132,7 +132,7 @@ li a.active {
  * Search
  */
 
- #block-islandora-solr-simple {
+ #block-manidora-manidora-simple-search {
   position: relative;
   float: left;
   /*background: url('../images/search_bar_bg.png') repeat;*/
@@ -154,15 +154,21 @@ li a.active {
 
  }
 
-#block-islandora-solr-simple h2 {
+#block-manidora-manidora-simple-search h2 {
   float: left;
   font-size: 80%;
   color: #fff;
   margin-right: 15px;
 }
 
-#islandora-solr-simple-search-form {
+#manidora-simple-search-form {
   float: left;
+}
+
+#edit-simple {
+  font-size: 80%; 
+  line-height: 2em;
+  letter-spacing: 0;
 }
 
 /*
