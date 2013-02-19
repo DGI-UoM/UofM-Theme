@@ -8,7 +8,7 @@
  */
 ?>
 <div class="islandora-newspaper-object islandora">
-  <?php print manidora_print_insert_link("print/islandora/object/{$islandora_object->id}"); ?>
+  <?php print l("Download printable PDF", 'islandora/manitoba/pdf/print/' . $islandora_object->id); ?>
   <?php if ($newspaper_controls): ?>
     <div class="islandora-newspaper-controls">
       <?php print $newspaper_controls; ?>
