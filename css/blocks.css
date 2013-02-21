@@ -32,10 +32,12 @@ h2.block-title {
 	font-size: 200%;
 }
 
-.sidebar h2.block-title { /* Block title */
-}
-.sidebar h2.block-title {
+#block-views-whats-new-block h2.block-title {
 	background-color: #EEA40F;
+}
+
+.sidebar h2.block-title {
+	background-color: #633706;
 	border-bottom-right-radius: 10px;
 	color: #FFFFFF;
 	font-size: 11px;
@@ -47,7 +49,6 @@ h2.block-title {
 	padding: 0 12px 0 13px;
 	text-transform: uppercase;
 	width: 95%;
-
 }
 
 #block-aggregator-category-1 { /* Block for the latest news items in the first category */
@@ -147,7 +148,7 @@ h2.block-title {
 /******************************/
 /***************/
 
-.facet-list .plusminus {
+span.plusminus {
 	display: none;
 }
 

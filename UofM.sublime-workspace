@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"border-left-",
+				"border-bottom-left-radius"
+			],
+			[
 				"max",
 				"max-height"
 			],
@@ -23,7 +27,7 @@
 			"file": "css/pages.css",
 			"settings":
 			{
-				"buffer_size": 4896,
+				"buffer_size": 4912,
 				"line_ending": "Unix"
 			}
 		},
@@ -31,7 +35,7 @@
 			"file": "css/navigation.css",
 			"settings":
 			{
-				"buffer_size": 5854,
+				"buffer_size": 5953,
 				"line_ending": "Unix"
 			}
 		},
@@ -39,7 +43,7 @@
 			"file": "css/normalize.css",
 			"settings":
 			{
-				"buffer_size": 16510,
+				"buffer_size": 16735,
 				"line_ending": "Unix"
 			}
 		},
@@ -47,7 +51,7 @@
 			"file": "css/layouts/responsive-sidebars.css",
 			"settings":
 			{
-				"buffer_size": 6286,
+				"buffer_size": 7616,
 				"line_ending": "Unix"
 			}
 		},
@@ -55,7 +59,7 @@
 			"file": "css/blocks.css",
 			"settings":
 			{
-				"buffer_size": 3469,
+				"buffer_size": 3729,
 				"line_ending": "Unix"
 			}
 		},
@@ -63,7 +67,7 @@
 			"file": "css/views-styles.css",
 			"settings":
 			{
-				"buffer_size": 2351,
+				"buffer_size": 3958,
 				"line_ending": "Unix"
 			}
 		},
@@ -142,6 +146,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"000",
+			"3",
+			"featured",
 			"search",
 			"fixed",
 			"head-back",
@@ -179,6 +186,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"222",
+			"51",
 			"5px 5px 15px 5px",
 			"1px 1px 2px 0 #7D7D7D"
 		],
@@ -199,15 +208,15 @@
 					"file": "css/pages.css",
 					"settings":
 					{
-						"buffer_size": 4896,
+						"buffer_size": 4912,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1883,
-								1883
+								4291,
+								4291
 							]
 						],
 						"settings":
@@ -217,7 +226,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 901.0,
+						"translation.y": 2786.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -227,15 +236,15 @@
 					"file": "css/navigation.css",
 					"settings":
 					{
-						"buffer_size": 5854,
+						"buffer_size": 5953,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4423,
-								4423
+								5704,
+								5704
 							]
 						],
 						"settings":
@@ -245,7 +254,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2171.0,
+						"translation.y": 1673.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -255,15 +264,15 @@
 					"file": "css/normalize.css",
 					"settings":
 					{
-						"buffer_size": 16510,
+						"buffer_size": 16735,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6586,
-								6586
+								16031,
+								16031
 							]
 						],
 						"settings":
@@ -273,7 +282,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 11445.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -283,25 +292,26 @@
 					"file": "css/layouts/responsive-sidebars.css",
 					"settings":
 					{
-						"buffer_size": 6286,
+						"buffer_size": 7616,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1844,
-								1844
+								2041,
+								2041
 							]
 						],
 						"settings":
 						{
+							"spell_check": true,
 							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1019.0,
+						"translation.y": 1442.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -311,23 +321,23 @@
 					"file": "css/blocks.css",
 					"settings":
 					{
-						"buffer_size": 3469,
+						"buffer_size": 3729,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								589,
-								589
+								994,
+								994
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
-						"translation.x": 32.0,
-						"translation.y": 0.0,
+						"translation.x": 0.0,
+						"translation.y": 848.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -337,15 +347,15 @@
 					"file": "css/views-styles.css",
 					"settings":
 					{
-						"buffer_size": 2351,
+						"buffer_size": 3958,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1092,
-								1092
+								3529,
+								3500
 							]
 						],
 						"settings":
@@ -355,7 +365,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1001.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
