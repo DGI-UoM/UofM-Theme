@@ -10,12 +10,12 @@
 ?>
 
 <div class="islandora-pdf-object islandora">
+  <?php print manidora_print_insert_link("print/islandora/object/{$islandora_object->id}"); ?>
   <div class="islandora-pdf-content-wrapper clearfix">
     <?php if (isset($islandora_content)): ?>
       <div class="islandora-pdf-content">
         <?php print $islandora_content; ?>
       </div>
-      <?php print $islandora_download_link; ?>
     <?php endif; ?>
   <div class="islandora-pdf-sidebar">
     <?php if (!empty($dc_array['dc:description']['value'])): ?>
