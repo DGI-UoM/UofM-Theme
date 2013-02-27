@@ -27,7 +27,7 @@
 			"file": "css/pages.css",
 			"settings":
 			{
-				"buffer_size": 4912,
+				"buffer_size": 5119,
 				"line_ending": "Unix"
 			}
 		},
@@ -43,7 +43,7 @@
 			"file": "css/normalize.css",
 			"settings":
 			{
-				"buffer_size": 16735,
+				"buffer_size": 16795,
 				"line_ending": "Unix"
 			}
 		},
@@ -51,7 +51,7 @@
 			"file": "css/layouts/responsive-sidebars.css",
 			"settings":
 			{
-				"buffer_size": 7616,
+				"buffer_size": 7691,
 				"line_ending": "Unix"
 			}
 		},
@@ -59,7 +59,7 @@
 			"file": "css/blocks.css",
 			"settings":
 			{
-				"buffer_size": 3729,
+				"buffer_size": 4177,
 				"line_ending": "Unix"
 			}
 		},
@@ -67,7 +67,7 @@
 			"file": "css/views-styles.css",
 			"settings":
 			{
-				"buffer_size": 3958,
+				"buffer_size": 6250,
 				"line_ending": "Unix"
 			}
 		},
@@ -75,7 +75,7 @@
 			"file": "templates/page.tpl.php",
 			"settings":
 			{
-				"buffer_size": 6973,
+				"buffer_size": 6885,
 				"line_ending": "Unix"
 			}
 		}
@@ -200,7 +200,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -208,15 +208,15 @@
 					"file": "css/pages.css",
 					"settings":
 					{
-						"buffer_size": 4912,
+						"buffer_size": 5119,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4291,
-								4291
+								787,
+								787
 							]
 						],
 						"settings":
@@ -226,7 +226,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2786.0,
+						"translation.y": 387.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -264,15 +264,15 @@
 					"file": "css/normalize.css",
 					"settings":
 					{
-						"buffer_size": 16735,
+						"buffer_size": 16795,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								16031,
-								16031
+								0,
+								0
 							]
 						],
 						"settings":
@@ -292,15 +292,15 @@
 					"file": "css/layouts/responsive-sidebars.css",
 					"settings":
 					{
-						"buffer_size": 7616,
+						"buffer_size": 7691,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2041,
-								2041
+								0,
+								0
 							]
 						],
 						"settings":
@@ -321,23 +321,24 @@
 					"file": "css/blocks.css",
 					"settings":
 					{
-						"buffer_size": 3729,
+						"buffer_size": 4177,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								994,
-								994
+								2929,
+								2929
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 848.0,
+						"translation.y": 2013.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -347,15 +348,15 @@
 					"file": "css/views-styles.css",
 					"settings":
 					{
-						"buffer_size": 3958,
+						"buffer_size": 6250,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3529,
-								3500
+								0,
+								0
 							]
 						],
 						"settings":
@@ -375,15 +376,15 @@
 					"file": "templates/page.tpl.php",
 					"settings":
 					{
-						"buffer_size": 6973,
+						"buffer_size": 6885,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4691,
-								4691
+								0,
+								0
 							]
 						],
 						"settings":

@@ -261,6 +261,10 @@ span.field-label { /* The inline field label used by the Fences module */
 */
 
 #islandora-solr-top {
-  float: left;
   position: relative; left: 30px; top: 25px;
+  float: left;
+}
+
+.no-results {
+  margin-left: 6em;
 }
