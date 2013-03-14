@@ -728,6 +728,7 @@ table {
   /* Add vertical rhythm margins. */
   margin-top: 1.5em;
   margin-bottom: 1.5em;
+  width: 100%;
 }
 
 /*
@@ -743,4 +744,9 @@ th {
 
 tbody {
   border-top: none;
+}
+
+table th,
+table td {
+  padding: 5px 10px;
 }
