@@ -150,11 +150,6 @@
     font-size: 75% !important;
   }
 
-  #block-views-node-slideshow-block {
-   width: 57% !important; height: 31% !important;
-   top: 33px !important;
-  }
-
   .views_slideshow_cycle_main {
     width: 100%;
     float: left;
