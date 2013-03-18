@@ -144,16 +144,53 @@
   display: inline;
 }
 
+/* ==========SLIDESHOW CSS STYLES==========
+
+.views-content-counter a {
+display: block;
+float: left;
+margin-right: 20px;
+height: 25px;
+width: 25px;
+}
+
+.views-content-counter a:hover {
+background-position: -25px 0px;
+}
+
+.active .views-content-counter a{
+background-position: -25px 0px;
+}
+
+
 /*
  * Frontpage blocks
 */
 
+#block-menu-menu-departments, #block-menu-menu-faculty-of-architecture {
+  min-height: 147px;
+  border: 1px solid #ccc;
+  padding: 0 5px 7px;
+  width: 29%;
+ }
+
+
+.front .block-menu ul li {
+  list-style: none;
+}
+
+.front .block-menu ul {
+  padding: 0; margin: 0;
+}
+
+
 .front #content .view-whats-new {
   border: 1px solid #ccc;
   padding: 0 5px 7px;
+  min-height: 130px;
 }
 
-.front #content .block-views {
+.front #content .block-views, #block-menu-menu-departments, #block-menu-menu-faculty-of-architecture {
   background: none repeat scroll 0 0 #FFFFFF;
   float: left;
   margin: 0 10px 35px;
@@ -163,7 +200,7 @@
   line-height: 1.5em;
 }
 
-.front #content .block-views h2.block-title {
+.front #content .block-views h2.block-title, #block-menu-menu-departments h2.block-title, #block-menu-menu-faculty-of-architecture h2.block-title {
   background-color: #633706;
   border-bottom-right-radius: 10px;
   color: #FFFFFF;
@@ -178,8 +215,12 @@
   width: 95%;
 }
 
+#block-menu-menu-departments h2.block-title, #block-menu-menu-faculty-of-architecture h2.block-title {
+  margin-left: -11px; padding-right: 24px;  
+}
+
 .featured-new .views-row {
-  padding: 5px 0;
+  padding: 5px;
 }
 
 .featured-thumb {
