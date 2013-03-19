@@ -26,7 +26,7 @@
   overflow: hidden;
 }
 
-.front #content .block-menu ul {
+.front #content .block-menu ul.menu {
   height: 200px;
   padding: 10px;
   margin: 0 15px 0 0;
@@ -36,27 +36,31 @@
   list-style-image: none;
 }
 
-.front #content #block-menu-menu-departments ul {
-  height: 90px;
+.front #content #block-menu-menu-departments ul.menu {
+  height: 110px;
 }
 
-.front #content #block-menu-menu-archives-special-coll2 ul {
+.front #content #block-menu-menu-archives-special-collection ul.menu {
+  height: 190px;
+}
+
+.front #content #block-menu-menu-archives-special-coll2 ul.menu {
   height: 160px;
 }
 
-.front #content #block-menu-menu-facutly-of-medicine-archive ul {
+.front #content #block-menu-menu-facutly-of-medicine-archive ul.menu {
   height: 40px;
 }
 
-.front #content #block-menu-menu-rare-books-collection ul {
+.front #content #block-menu-menu-rare-books-collection ul.menu {
   height: 90px;
 }
 
-.front #content #block-menu-menu-faculty-of-architecture ul {
+.front #content #block-menu-menu-faculty-of-architecture ul.menu {
   height: 40px;
 }
 
-.front #content .block-menu ul li {
+.front #content .block-menu ul.menu li {
   list-style: none;
   list-style-image: none;  
 }
@@ -67,18 +71,18 @@
     width: 50%;
   }
 
-  .front #content #block-menu-menu-departments ul,
-  .front #content #block-menu-menu-archives-special-collection ul {
+  .front #content #block-menu-menu-departments ul.menu,
+  .front #content #block-menu-menu-archives-special-collection ul.menu {
     height: 200px;
   }
 
-  .front #content #block-menu-menu-archives-special-coll2 ul,
-  .front #content #block-menu-menu-facutly-of-medicine-archive ul {
+  .front #content #block-menu-menu-archives-special-coll2 ul.menu,
+  .front #content #block-menu-menu-facutly-of-medicine-archive ul.menu {
     height: 150px;
   }
 
-  .front #content #block-menu-menu-rare-books-collection ul,
-  .front #content #block-menu-menu-faculty-of-architecture ul {
+  .front #content #block-menu-menu-rare-books-collection ul.menu,
+  .front #content #block-menu-menu-faculty-of-architecture ul.menu {
     height: 100px;
   }
   
@@ -91,16 +95,15 @@
     width: 33%;
   }
 
-  .front #content #block-menu-menu-departments ul,
-  .front #content #block-menu-menu-archives-special-collection ul,
-  .front #content #block-menu-menu-archives-special-coll2 ul {
+  .front #content #block-menu-menu-departments ul.menu,
+  .front #content #block-menu-menu-archives-special-collection ul.menu,
+  .front #content #block-menu-menu-archives-special-coll2 ul.menu {
     height: 200px;
   }
 
-  .front #content #block-menu-menu-facutly-of-medicine-archive ul,
-  .front #content #block-menu-menu-rare-books-collection ul,
-  .front #content #block-menu-menu-faculty-of-architecture ul {
+  .front #content #block-menu-menu-facutly-of-medicine-archive ul.menu,
+  .front #content #block-menu-menu-rare-books-collection ul.menu,
+  .front #content #block-menu-menu-faculty-of-architecture ul.menu {
     height: 100px;
   }
-  
 }
