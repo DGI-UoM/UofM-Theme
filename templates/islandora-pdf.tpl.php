@@ -10,6 +10,7 @@
 ?>
 
 <div class="islandora-pdf-object islandora">
+  <div><?php print t('click image to print'); ?></div>
   <div class="islandora-pdf-content-wrapper clearfix">
     <?php if (isset($islandora_content)): ?>
       <div class="islandora-pdf-content">
@@ -17,10 +18,6 @@
       </div>
     <?php endif; ?>
   <div class="islandora-pdf-sidebar">
-    <?php if (!empty($dc_array['dc:description']['value'])): ?>
-      <h2><?php print $dc_array['dc:description']['label']; ?></h2>
-      <p><?php print $dc_array['dc:description']['value']; ?></p>
-    <?php endif; ?>
     <?php if($parent_collections): ?>
       <div>
         <h2><?php print t('In collections'); ?></h2>
