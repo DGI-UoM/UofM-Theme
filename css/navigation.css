@@ -132,7 +132,7 @@ li a.active {
  * Search
  */
 
- #block-manidora-manidora-simple-search {
+ #block-islandora-collection-search-islandora-collection-search {
   position: relative;
   float: left;
   /*background: url('../images/search_bar_bg.png') repeat;*/
@@ -154,19 +154,19 @@ li a.active {
 
  }
 
-#block-manidora-manidora-simple-search h2 {
+#block-islandora-collection-search-islandora-collection-search h2 {
   float: left;
   font-size: 80%;
   color: #fff;
   margin-right: 15px;
 }
 
-#manidora-simple-search-form {
+#islandora-collection-search-form {
   float: left;
 }
 
 #edit-simple {
-  font-size: 80%; 
+  font-size: 80%;
   line-height: 2em;
   letter-spacing: 0;
 }
